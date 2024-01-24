@@ -1,11 +1,22 @@
 {
-  "name": "priority-to-do-list",
+  "name": "7.-loading-previous-messages",
   "version": "1.0.0",
-  "description": "The Priority To-Do List App is a web application designed to help users manage and prioritize their tasks based on different priority levels. Users can add tasks, assign priorities (low, medium, high), and view tasks categorized by priority. The app aims to provide a simple and intuitive interface for effective task management.",
+  "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Pintu Kumar",
-  "license": "ISC"
+  "keywords": [],
+  "author": "Pintu Sharma",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
 }
